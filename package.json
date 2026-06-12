@@ -1,0 +1,31 @@
+{
+  "name": "ctxline-codex",
+  "version": "0.0.1",
+  "description": "Zero-config Codex CLI status line preset",
+  "bin": {
+    "ctxline-codex": "bin/ctxline-codex.js"
+  },
+  "scripts": {
+    "test": "node --test",
+    "doctor": "node bin/ctxline-codex.js doctor"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "files": [
+    "bin/",
+    "lib/",
+    "README.md",
+    "LICENSE",
+    "preview.svg"
+  ],
+  "keywords": [
+    "codex",
+    "codex-cli",
+    "statusline",
+    "status-line",
+    "context-window"
+  ],
+  "author": "Dian Ang <23232359+yapdianang@users.noreply.github.com>",
+  "license": "MIT"
+}

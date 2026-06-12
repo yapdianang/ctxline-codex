@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="980" height="96" viewBox="0 0 980 96" role="img" aria-label="Codex status line preview">
+  <rect width="980" height="96" rx="8" fill="#101317"/>
+  <rect x="24" y="24" width="932" height="48" rx="6" fill="#181d22" stroke="#303841"/>
+  <text x="44" y="54" fill="#d7dde5" font-family="Menlo, Consolas, monospace" font-size="17">ctxline-codex</text>
+  <text x="178" y="54" fill="#76808c" font-family="Menlo, Consolas, monospace" font-size="17">|</text>
+  <text x="202" y="54" fill="#8bd5ff" font-family="Menlo, Consolas, monospace" font-size="17">main</text>
+  <text x="252" y="54" fill="#76808c" font-family="Menlo, Consolas, monospace" font-size="17">|</text>
+  <text x="276" y="54" fill="#d7dde5" font-family="Menlo, Consolas, monospace" font-size="17">gpt-5.5 xhigh</text>
+  <text x="420" y="54" fill="#76808c" font-family="Menlo, Consolas, monospace" font-size="17">|</text>
+  <text x="444" y="54" fill="#8ee59f" font-family="Menlo, Consolas, monospace" font-size="17">context 31%</text>
+  <text x="560" y="54" fill="#76808c" font-family="Menlo, Consolas, monospace" font-size="17">|</text>
+  <text x="584" y="54" fill="#ffd479" font-family="Menlo, Consolas, monospace" font-size="17">5h 42%</text>
+  <text x="666" y="54" fill="#76808c" font-family="Menlo, Consolas, monospace" font-size="17">|</text>
+  <text x="690" y="54" fill="#8ee59f" font-family="Menlo, Consolas, monospace" font-size="17">weekly 18%</text>
+  <text x="806" y="54" fill="#76808c" font-family="Menlo, Consolas, monospace" font-size="17">|</text>
+  <text x="830" y="54" fill="#b9c0ca" font-family="Menlo, Consolas, monospace" font-size="17">task 2/4</text>
+</svg>
