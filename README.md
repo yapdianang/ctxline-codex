@@ -16,20 +16,19 @@ Then restart Codex or start a new session.
 
 ## Install From GitHub
 
-If this package has not been published to npm yet, clone it with GitHub auth and install it locally:
-
-```bash
-gh auth login
-gh repo clone yapdianang/ctxline-codex
-cd ctxline-codex
-npm install -g .
-ctxline-codex
-```
-
-If the repository is public, you can install it directly:
+If this package has not been published to npm yet, install it straight from GitHub:
 
 ```bash
 npm install -g https://github.com/yapdianang/ctxline-codex.git
+ctxline-codex
+```
+
+Or clone it first if you want to inspect or edit the package:
+
+```bash
+gh repo clone yapdianang/ctxline-codex
+cd ctxline-codex
+npm install -g .
 ctxline-codex
 ```
 
