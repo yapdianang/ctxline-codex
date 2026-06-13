@@ -6,6 +6,9 @@ A lightweight, zero-config status-line preset for Codex CLI.
 
 ![Codex Status Line Preview](preview.svg)
 
+> [!NOTE]
+> Current Codex releases render status-line items with Codex's native text renderer. The compact bar UI in the preview requires Codex itself to support bar rendering for percentage items. A proof-of-concept Codex patch is here: <https://github.com/yapdianang/codex/tree/codex/ctxline-bars>, with upstream discussion at <https://github.com/openai/codex/issues/27984>.
+
 ## Install
 
 ```bash
@@ -99,6 +102,8 @@ ctxline-codex preset       # print the preset TOML value
 ## Notes
 
 Claude Code supports an external `statusLine.command` hook, which is why `ctxline-claude` ships a renderer script. Codex CLI already renders status-line segments internally, so this package configures the native Codex TUI instead.
+
+For the exact Claude-style bar footer, Codex needs a renderer change. This package already installs the right status-line item order; the visual bar rendering has to land in Codex itself or run from a custom Codex build.
 
 ## License
 
